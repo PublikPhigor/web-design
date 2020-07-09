@@ -1,0 +1,143 @@
+/* global */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    background: #fff;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+.btn {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 0.6rem;
+    font-weight: bolder;
+}
+    .btn:hover {
+        background: #10b60b;
+        color: #fff;
+    }
+
+/* header */
+#header {
+    background: #ccc;
+    border-bottom: 4px solid #10b606;
+}
+
+    #header li {
+        display: inline-flex;
+        padding-right: 15px;
+    }
+
+    #header .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #header nav {
+        margin-top: 20px;
+    }
+
+    #header a {
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+
+    #header .current a, h1 span {
+        color: #10b60b;
+    }
+
+    #header a:hover {
+        font-weight: bolder;
+        color: #fff;
+    }
+
+    #logo h1{
+        font-size: 2.2rem;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        text-align: center;
+    }
+
+    #logo p {
+        margin-top: 0;
+        font-weight: bold;
+        text-align: center;
+    }
+
+/* showcase */
+#showcase {
+    background: #000;
+    color: #fff;
+    min-height: 400px;
+}
+
+    #showcase h1 {
+        margin-top: 130px;
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    #showcase p {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+
+/* newsletter */
+#newsletter {
+    background: #ccc;
+}
+
+    #newsletter .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #newsletter form {
+        margin-top: 10px;
+        font-size: 2rem;
+    }
+
+    #newsletter form input{
+        padding: 0.5rem;
+        width: 15rem;
+    }
+
+/* cards */
+#cards .container {
+    display: flex;
+    justify-content: space-evenly;
+}
+    #cards {
+        margin: 20px 0;
+    }
+    .card {
+        text-align: center;
+    }
+
+    /* font awesome */
+    .fab, .fa {
+    font-size: 4rem;
+    }
+
+/* footer */
+footer {
+    background: #ccc;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    border-top: 4px solid #10b606;
+    margin-top: 2rem;
+}
