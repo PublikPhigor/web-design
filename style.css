@@ -127,7 +127,7 @@ body {
         text-align: center;
     }
 
-    /* font awesome */
+    /* font awesome icons */
     .fab, .fa {
     font-size: 4rem;
     }
@@ -209,23 +209,23 @@ footer {
         padding-right: 15px;
     }
 
-    #header .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+        #header .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
-    #header nav {
-        margin-top: 5px;
-    }
+        #header nav {
+            margin-top: 5px;
+        }
 
-    #logo h1 {
-        font-size: 2rem;
-    }
+        #logo h1 {
+            font-size: 2rem;
+        }
 
-    #header ul {
-        padding: 0;
-    }
+        #header ul {
+            padding: 0;
+        }
 
 
     /* showcase */
@@ -234,17 +234,17 @@ footer {
         min-height: 280px;
     }
 
-    #showcase h1 {
-        margin-top: 70px;
-        font-size: 2.0rem;
-        text-align: center;
-    }
+        #showcase h1 {
+            margin-top: 70px;
+            font-size: 2.0rem;
+            text-align: center;
+        }
 
-    #showcase p {
-        text-align: center;
-        font-size: 1rem;
-        margin-bottom: 60px;
-    }
+        #showcase p {
+            text-align: center;
+            font-size: 1rem;
+            margin-bottom: 60px;
+        }
 
     /* newsletter */
     #newsletter .container {
@@ -288,7 +288,7 @@ footer {
             text-align: center;
         }
 
-        /* main */
+    /* main */
     .about-us{
         max-width: 90%;
         text-align: center;
