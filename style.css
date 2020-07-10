@@ -132,6 +132,59 @@ body {
     font-size: 4rem;
     }
 
+/* main */
+.about-us{
+    max-width: 60%;
+    text-align: center;
+    float: left;
+    margin-top: 0;
+}
+
+    .about-us h1 {
+        background: #ccc;
+        padding: 10px;
+    }
+
+/* sidebar */
+.sidebar
+    {
+        max-width: 25%;
+        float: right;
+        background: #ccc;
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+
+/* services */
+.services-box {
+    max-width: 60%;
+    float: left;
+}
+
+    .services {
+        font-size: 18px;
+        background: #ccc;
+        padding: 20px;
+        margin-bottom: 5px;
+    }
+
+    .services-box h1 {
+        background: #000;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 0;
+    }
+
+
+/* form */
+.my-form label, .my-form input{
+    width: 95%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
 /* footer */
 footer {
     background: #ccc;
@@ -233,5 +286,47 @@ footer {
         .card {
             margin-bottom: 20px;
             text-align: center;
+        }
+
+        /* main */
+    .about-us{
+        max-width: 90%;
+        text-align: center;
+        float: none;
+        margin: auto;
+        font-size: 15px;
+    }
+
+    /* sidebar */
+    .sidebar
+        {
+            font-size: 15px;
+            max-width: 90%;
+            float: none;
+            padding: 10px;
+            margin: auto;
+            margin-top: 30px;
+        }
+
+
+    /* services */
+    .services-box {
+        margin: auto;
+        max-width: 90%;
+        float: none;
+    }
+
+        .services {
+            font-size: 15px;
+            padding: 20px;
+            margin-bottom: 5px;
+        }
+
+        .services-box h1 {
+            background: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 0;
         }
 }
